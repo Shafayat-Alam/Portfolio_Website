@@ -1,0 +1,70 @@
+.card{
+    /* position: absolute; */
+    height: 100%;
+    width: 100%;
+    /* border-radius: 20px; */
+    /* background-color: blueviolet; */
+    background-image: linear-gradient(0deg, rgba(10,8,0,1) 0%, rgba(156,105,70,1) 100%);
+    /* background-color: pink; */
+
+    /* border: 1px solid red; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow: auto; */
+
+    scroll-snap-align: start;
+
+    /* border: 5px solid magenta; */
+}
+
+.picture-container{
+    width: 60%;
+    height: 100%;  
+
+    /* border: 5px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    /* overflow-y: scroll; */
+    animation: auto-scroll 10s infinite;
+}
+
+.container {
+    overflow-y: auto;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+.container::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.description-container{
+    width: 40%;
+    height: 100%;
+
+    padding: 1%;
+
+    /* background-color: red; */
+}
+
+@keyframes auto-scroll {
+    0% {
+        transform: translateY(0%);
+    }
+    50% {
+        transform: translateY(-80%);
+    }
+    100% {
+        transform: translateY(-0%);
+    }
+}

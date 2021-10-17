@@ -1,0 +1,81 @@
+.container{
+    /* position: absolute; */
+    height: 100vh;
+    width: 100vw;
+    left: 0;
+    top: 0;
+    z-index: 4;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    /* background-color: cadetblue; */
+
+    /* overflow: hidden; */
+}
+
+.carousal-container{
+    /* background-color: blue; */
+    width: 80%;
+    /* border: 10px solid red; */
+    height: 70%;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* flex-wrap: nowrap; */
+    overflow: hidden;
+}
+
+.card-container{
+    height: 100%;
+    width: 100%;
+    /* border: 5px solid blue; */
+    display: flex;
+    flex-wrap: nowrap;
+    /* flex-direction: row; */
+   /*border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    background-color: chartreuse;
+
+    overflow: visible;
+    scrollbar-width: none;
+
+    scroll-snap-type: y mandatory; */
+}
+
+.card{
+    width: 100%;
+    height: 100%;
+    flex: 0 0 auto;
+    /* border: 5px solid yellow; */
+}
+
+.card-container::-webkit-scrollbar{
+    display: none;
+}
+
+.button{
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+}
+
+.left-button{
+    border: none;
+    border-left: 10px solid hsl(0, 94%, 12%);
+    border-top: 10px solid hsl(0, 94%, 12%);
+    transform: rotate(-45deg);
+}
+
+.right-button{
+    border: none;
+    border-right: 10px solid hsl(0, 94%, 12%);
+    border-top: 10px solid hsl(0, 94%, 12%);
+    transform: rotate(45deg);
+}
