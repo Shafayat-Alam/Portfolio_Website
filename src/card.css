@@ -16,6 +16,8 @@
 
     scroll-snap-align: start;
 
+    overflow: scroll;
+
     /* border: 5px solid magenta; */
 }
 
@@ -28,6 +30,9 @@
     flex-direction: column;
     /* overflow-y: scroll; */
     animation: auto-scroll 10s infinite;
+
+    overflow: none;
+
 }
 
 .container {
@@ -54,7 +59,8 @@ img{
 
     padding: 1%;
 
-    /* background-color: red; */
+    overflow: scroll;
+    background-color: red;
 }
 
 @keyframes auto-scroll {
@@ -66,5 +72,32 @@ img{
     }
     100% {
         transform: translateY(-0%);
+    }
+}
+
+@media (max-width: 800px) {
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+    .picture-container{
+        width: 100%;
+        height: 60%;
+        flex-direction: row;
+    }
+    .description-container{
+        width: 100%;
+    }
+
+    @keyframes auto-scroll {
+        0% {
+            transform: translateX(0%);
+        }
+        50% {
+            transform: translateX(-80%);
+        }
+        100% {
+            transform: translateX(-0%);
+        }
     }
 }

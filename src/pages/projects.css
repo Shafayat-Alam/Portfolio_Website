@@ -79,3 +79,7 @@
     border-top: 10px solid hsl(0, 94%, 12%);
     transform: rotate(45deg);
 }
+
+@media (min-width: 20px) {
+    
+}
