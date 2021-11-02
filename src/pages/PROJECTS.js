@@ -54,7 +54,7 @@ export default function PROJECTS() {
     ]
 
     const fifthProject = [
-        <img src="" alt="" />
+        <img src={}/>
     ]
     // const [secondProject, setsecondProject] = useState([FerrariF12, Messi])
 
@@ -108,10 +108,10 @@ export default function PROJECTS() {
                 <div className="carousal-container">
                     <div ref = {cardContainer} className="card-container">
                         <CARD forwardedRef = {card} picture = {firstProject} pictureLength = {firstProject.length} description = {
-                            "Green Web is a Progressive Web App(PWA) that I made to spread awareness about postive environment practices. It is a app that is hooked onto firebase, a cloud database service, that let me store data from users in the cloud. Since the data is in the cloud, users can see eachother's data that they put down. This lets Geen Web be an information hub for people to visit to browse through practical daily life postiive environmental practices and also contribute to the information hub. "
+                            "Green Web is a Progressive Web App(PWA) that I made to spread awareness about postive environment practices. It is a app that is hooked onto firebase, a cloud database service, that let me store data from users in the cloud. Since the data is in the cloud, users can see eachother's data that they put down. This lets Geen Web be an information hub for people to visit to browse through practical daily life postiive environmental practices and also contribute to the information hub. It also has a responsive UI that responds to the screen-size of the user's device to provide the user a comfortable UI no matter what device the user choose to use the app."
                         } className = "card"/>
                         <CARD forwardedRef = {card} picture = {secondProject} pictureLegnth = {secondProject.length} description = {
-                            'Ferrari F11'
+                            'Innovaton Challenge '
                         } className = "card"/>
                         <CARD forwardedRef = {card} picture = {thirdProject} pictureLegnth = {thirdProject.length} description = {
                             'Ferrari F11'
@@ -119,7 +119,9 @@ export default function PROJECTS() {
                         <CARD forwardedRef = {card} picture = {fourthProject} pictureLegnth = {fourthProject.length} description = {
                             'Ferrari F11'
                         } className = "card"/>
-                        
+                        <CARD forwardedRef = {card} picture = {fifthProject} pictureLegnth = {fifthProject.length} description = {
+                            'Ferrari F11'
+                        } className = "card"/>
                     </div>
                 </div>
                 <button className="button right-button" onClick = {rightButtonClickHandle}></button>
