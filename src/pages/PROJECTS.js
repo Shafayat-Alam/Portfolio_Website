@@ -108,7 +108,7 @@ export default function PROJECTS() {
                 <div className="carousal-container">
                     <div ref = {cardContainer} className="card-container">
                         <CARD forwardedRef = {card} picture = {firstProject} pictureLength = {firstProject.length} description = {
-                            'loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem'
+                            "Green Web is a Progressive Web App(PWA) that I made to spread awareness about postive environment practices. It is a app that is hooked onto firebase, a cloud database service, that let me store data from users in the cloud. Since the data is in the cloud, users can see eachother's data that they put down. This lets Geen Web be an information hub for people to visit to browse through practical daily life postiive environmental practices and also contribute to the information hub. "
                         } className = "card"/>
                         <CARD forwardedRef = {card} picture = {secondProject} pictureLegnth = {secondProject.length} description = {
                             'Ferrari F11'

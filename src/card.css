@@ -60,7 +60,7 @@ img{
     padding: 1%;
 
     overflow: scroll;
-    background-color: red;
+    background-color: transparent;
 
 
     white-space: normal;
@@ -91,6 +91,7 @@ img{
     }
     .description-container{
         width: 100%;
+        color: grey;
     }
 
     @keyframes auto-scroll {
