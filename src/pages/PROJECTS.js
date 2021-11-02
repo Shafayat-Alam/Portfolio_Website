@@ -16,6 +16,8 @@ import SPARKCeramics from '../assets/SPARK Ceramics.png'
 import SPARKCeramicsSamplePrep from '../assets/SPARK Ceramics Sample Prep.png'
 import SPARKSteatite from '../assets/Steatite Poster.png'
 import SPARKSteatiteData from '../assets/SPARK Steatite Data.png'
+import Matter1 from '../assets/Matter 1.png'
+import Matter2 from '../assets/Matter 2.png'
 
 
 
@@ -54,7 +56,12 @@ export default function PROJECTS() {
     ]
 
     const fifthProject = [
-        // <img src={}/>
+        <img src={Matter1} />,
+        <img src={Matter2} />
+    ]
+
+    const sixthProject = [
+        <img src="" alt="" />
     ]
     // const [secondProject, setsecondProject] = useState([FerrariF12, Messi])
 
