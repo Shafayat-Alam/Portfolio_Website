@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef }from 'react'
 import './projects.css'
 import CARD from '../CARD.js'
+
 import Innovation1 from '../assets/Innovation 1.png'
 import Innovation2 from '../assets/Innovation 2.png'
 import Innovation3 from '../assets/Innovation 3.png'
@@ -9,6 +10,9 @@ import Innovation5 from '../assets/Innovation 5.png'
 import Innovation6 from '../assets/Innovation 6.png'
 import Innovation7 from '../assets/Innovation 7.png'
 import Innovation8 from '../assets/Innovation 8.png'
+import GreenWeb1 from '../assets/Green Web 1.png'
+import GreenWeb2 from '../assets/Green Web 2.png'
+
 
 
 export default function PROJECTS() {
@@ -22,6 +26,11 @@ export default function PROJECTS() {
 
     // const [firstProject, setfirstProject] = useState([db11, Kobe])
     const firstProject = [
+        <img src = {GreenWeb1}/>,
+        <img src = {GreenWeb2}/>
+        
+    ]
+    const secondProject = [
         <img src = {Innovation1}/>,
         <img src = {Innovation2}/>,
         <img src = {Innovation3}/>,
@@ -30,9 +39,6 @@ export default function PROJECTS() {
         <img src = {Innovation6}/>,
         <img src = {Innovation7}/>,
         <img src = {Innovation8}/>
-    ]
-    const secondProject = [
-        
     ]
     // const [secondProject, setsecondProject] = useState([FerrariF12, Messi])
 
@@ -87,9 +93,7 @@ export default function PROJECTS() {
                     <div ref = {cardContainer} className="card-container">
                         <CARD forwardedRef = {card} picture = {firstProject} pictureLength = {firstProject.length} description = {'Aston Martin db11'} className = "card"/>
                         <CARD forwardedRef = {card} picture = {secondProject} pictureLegnth = {secondProject.length} description = {'Ferrari F11'} className = "card"/>
-                        <CARD forwardedRef = {card} picture = {firstProject} pictureLegnth = {firstProject.length} description = {'Aston Martin db12'} className = "card"/>
-                        <CARD forwardedRef = {card} picture = {secondProject} pictureLegnth = {secondProject.length} description = {'Ferrari F12'} className = "card"/>
-                     </div>
+                    </div>
                 </div>
                 <button className="button right-button" onClick = {rightButtonClickHandle}></button>
             </div>
