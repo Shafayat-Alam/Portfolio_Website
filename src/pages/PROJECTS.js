@@ -1,10 +1,15 @@
 import React, { useState, useEffect, useRef }from 'react'
 import './projects.css'
 import CARD from '../CARD.js'
-import db11 from '../assets/db11.jpg'
-import FerrariF12 from '../assets/FerrariF12.jpg'
-import Kobe from '../assets/Kobe.jpg'
-import Messi from '../assets/Messi.jpg'
+import Innovation1 from '../assets/Innovation 1.png'
+import Innovation2 from '../assets/Innovation 2.png'
+import Innovation3 from '../assets/Innovation 3.png'
+import Innovation4 from '../assets/Innovation 4.png'
+import Innovation5 from '../assets/Innovation 5.png'
+import Innovation6 from '../assets/Innovation 6.png'
+import Innovation7 from '../assets/Innovation 7.png'
+import Innovation8 from '../assets/Innovation 8.png'
+
 
 export default function PROJECTS() {
 
@@ -17,12 +22,17 @@ export default function PROJECTS() {
 
     // const [firstProject, setfirstProject] = useState([db11, Kobe])
     const firstProject = [
-        <img src = {db11}/>,
-        <img src = {Messi}/>
+        <img src = {Innovation1}/>,
+        <img src = {Innovation2}/>,
+        <img src = {Innovation3}/>,
+        <img src = {Innovation4}/>,
+        <img src = {Innovation5}/>,
+        <img src = {Innovation6}/>,
+        <img src = {Innovation7}/>,
+        <img src = {Innovation8}/>
     ]
     const secondProject = [
-        <img src={FerrariF12} />,
-        <img src={Kobe} />
+        
     ]
     // const [secondProject, setsecondProject] = useState([FerrariF12, Messi])
 
