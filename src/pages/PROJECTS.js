@@ -54,7 +54,7 @@ export default function PROJECTS() {
     ]
 
     const fifthProject = [
-        <img src={}/>
+        // <img src={}/>
     ]
     // const [secondProject, setsecondProject] = useState([FerrariF12, Messi])
 
