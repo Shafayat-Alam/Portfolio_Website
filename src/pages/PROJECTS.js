@@ -12,6 +12,7 @@ import Innovation7 from '../assets/Innovation 7.png'
 import Innovation8 from '../assets/Innovation 8.png'
 import GreenWeb1 from '../assets/Green Web 1.png'
 import GreenWeb2 from '../assets/Green Web 2.png'
+import SPARKCeramics from '../assets/SPARK Ceramics.png'
 
 
 
@@ -23,12 +24,10 @@ export default function PROJECTS() {
     // const [counter, setcounter] = useState(1)
     let counter = 0
     var size;
-
     // const [firstProject, setfirstProject] = useState([db11, Kobe])
     const firstProject = [
         <img src = {GreenWeb1}/>,
         <img src = {GreenWeb2}/>
-        
     ]
     const secondProject = [
         <img src = {Innovation1}/>,
@@ -39,6 +38,10 @@ export default function PROJECTS() {
         <img src = {Innovation6}/>,
         <img src = {Innovation7}/>,
         <img src = {Innovation8}/>
+    ]
+
+    const thirdProject = [
+        <img src={SPARKCeramics} />
     ]
     // const [secondProject, setsecondProject] = useState([FerrariF12, Messi])
 
@@ -93,6 +96,7 @@ export default function PROJECTS() {
                     <div ref = {cardContainer} className="card-container">
                         <CARD forwardedRef = {card} picture = {firstProject} pictureLength = {firstProject.length} description = {'Aston Martin db11'} className = "card"/>
                         <CARD forwardedRef = {card} picture = {secondProject} pictureLegnth = {secondProject.length} description = {'Ferrari F11'} className = "card"/>
+                        <CARD forwardedRef = {card} picture = {thirdProject} pictureLegnth = {thirdProject.length} description = {'Ferrari F11'} className = "card"/>
                     </div>
                 </div>
                 <button className="button right-button" onClick = {rightButtonClickHandle}></button>
