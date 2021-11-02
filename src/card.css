@@ -59,12 +59,12 @@ img{
 
     padding: 1%;
 
-    overflow: scroll;
+    overflow-y: scroll;
     background-color: transparent;
 
 
-    white-space: normal;
-    word-break:break-all;
+    /* white-space: normal;
+    word-break:break-all; */
 }
 
 @keyframes auto-scroll {
