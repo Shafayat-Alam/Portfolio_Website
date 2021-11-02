@@ -61,6 +61,10 @@ img{
 
     overflow: scroll;
     background-color: red;
+
+
+    white-space: normal;
+    word-break:break-all;
 }
 
 @keyframes auto-scroll {

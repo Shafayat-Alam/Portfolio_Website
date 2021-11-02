@@ -13,6 +13,9 @@ import Innovation8 from '../assets/Innovation 8.png'
 import GreenWeb1 from '../assets/Green Web 1.png'
 import GreenWeb2 from '../assets/Green Web 2.png'
 import SPARKCeramics from '../assets/SPARK Ceramics.png'
+import SPARKCeramicsSamplePrep from '../assets/SPARK Ceramics Sample Prep.png'
+import SPARKSteatite from '../assets/Steatite Poster.png'
+import SPARKSteatiteData from '../assets/SPARK Steatite Data.png'
 
 
 
@@ -41,7 +44,17 @@ export default function PROJECTS() {
     ]
 
     const thirdProject = [
-        <img src={SPARKCeramics} />
+        <img src={SPARKCeramics} />,
+        <img src={SPARKCeramicsSamplePrep} />
+    ]
+
+    const fourthProject = [
+        <img src={SPARKSteatite} />,
+        <img src={SPARKSteatiteData} />
+    ]
+
+    const fifthProject = [
+        <img src="" alt="" />
     ]
     // const [secondProject, setsecondProject] = useState([FerrariF12, Messi])
 
@@ -94,9 +107,19 @@ export default function PROJECTS() {
                 <button className = "button left-button" onClick = {leftButtonClickHandle}></button>
                 <div className="carousal-container">
                     <div ref = {cardContainer} className="card-container">
-                        <CARD forwardedRef = {card} picture = {firstProject} pictureLength = {firstProject.length} description = {'Aston Martin db11'} className = "card"/>
-                        <CARD forwardedRef = {card} picture = {secondProject} pictureLegnth = {secondProject.length} description = {'Ferrari F11'} className = "card"/>
-                        <CARD forwardedRef = {card} picture = {thirdProject} pictureLegnth = {thirdProject.length} description = {'Ferrari F11'} className = "card"/>
+                        <CARD forwardedRef = {card} picture = {firstProject} pictureLength = {firstProject.length} description = {
+                            'loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem'
+                        } className = "card"/>
+                        <CARD forwardedRef = {card} picture = {secondProject} pictureLegnth = {secondProject.length} description = {
+                            'Ferrari F11'
+                        } className = "card"/>
+                        <CARD forwardedRef = {card} picture = {thirdProject} pictureLegnth = {thirdProject.length} description = {
+                            'Ferrari F11'
+                        } className = "card"/>
+                        <CARD forwardedRef = {card} picture = {fourthProject} pictureLegnth = {fourthProject.length} description = {
+                            'Ferrari F11'
+                        } className = "card"/>
+                        
                     </div>
                 </div>
                 <button className="button right-button" onClick = {rightButtonClickHandle}></button>
