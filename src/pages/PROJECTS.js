@@ -79,7 +79,7 @@ export default function PROJECTS() {
 
     function rightButtonClickHandle(){
         console.log("counter: " + counter)
-        if(counter >= 3) { return }
+        if(counter >= 4) { return }
         size = card.current.offsetWidth;
         // cardContainer.style.transition = "transform 0.4s ease-in-out";
         cardContainer.current.style.transition = "transform 0.4s ease-in-out"
