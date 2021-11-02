@@ -118,7 +118,7 @@ export default function PROJECTS() {
                             "Green Web is a Progressive Web App(PWA) that I made to spread awareness about postive environment practices. It is a app that is hooked onto firebase, a cloud database service, that let me store data from users in the cloud. Since the data is in the cloud, users can see eachother's data that they put down. This lets Geen Web be an information hub for people to visit to browse through practical daily life postiive environmental practices and also contribute to the information hub. It also has a responsive UI that responds to the screen-size of the user's device to provide the user a comfortable UI no matter what device the user choose to use the app."
                         } className = "card"/>
                         <CARD forwardedRef = {card} picture = {secondProject} pictureLegnth = {secondProject.length} description = {
-                            'Innovaton Challenge '
+                            'Innovaton Challenge'
                         } className = "card"/>
                         <CARD forwardedRef = {card} picture = {thirdProject} pictureLegnth = {thirdProject.length} description = {
                             'Ferrari F11'
@@ -127,7 +127,7 @@ export default function PROJECTS() {
                             'Ferrari F11'
                         } className = "card"/>
                         <CARD forwardedRef = {card} picture = {fifthProject} pictureLegnth = {fifthProject.length} description = {
-                            'Ferrari F11'
+                            "'Matter' is a Progressive Web App(PWA) with experimental physics simulations catered towards AP Physics students. When I took AP Physics 1 last year during the pandemic, it was difficult for me to get a good understanding of something of the concepts because I could not visualize or see them in action. As I was struggling taking the class at home, I decided to scourge the internet for help but I found it much easier to make my own simulations at home drawing pictures on paper. Although, I was still struggling with Physics, this was an oppurtunity for me to work on a PWA to help visual learners like me sturggling with AP Physics. Unfortunately, this is still in development. It is a big project so it would take some time. It should be done by the end of this year. "
                         } className = "card"/>
                     </div>
                 </div>
