@@ -21,17 +21,26 @@
 .title{
     height: fit-content;
     width: fit-content;
-    font-size: 200px;
-    font-size: 900%;
+    /* font-size: 200px; */
+    /* font-size: 900%; */
     /* background-color: hotpink; */
 }
 
 .description{
-    margin: 50px;
+    margin-left: 2%;
+    margin-right: 2%;
     font-size: 20px;
     /* background-color: lightgreen; */
 }
 
 .indent{
     margin-left: 40px;
+}
+
+
+@media (max-width: 800px) {
+    .title{
+        height: fit-content;
+        width: fit-content;
+    }
 }
