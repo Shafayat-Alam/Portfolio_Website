@@ -18,6 +18,9 @@ import SPARKSteatite from '../assets/Steatite Poster.png'
 import SPARKSteatiteData from '../assets/SPARK Steatite Data.png'
 import Matter1 from '../assets/Matter 1.png'
 import Matter2 from '../assets/Matter 2.png'
+import WindowBlindController1 from '../assets/Window Blind Servo 1.png'
+import WindowBlindController2 from '../assets/Window Blind Servo 2.png'
+
 
 
 
@@ -62,6 +65,11 @@ export default function PROJECTS() {
 
     const sixthProject = [
         <img src="" alt="" />
+    ]
+
+    const seventhProject = [
+        <img src={WindowBlindController1} />,
+        <img src={WindowBlindController2} />
     ]
     // const [secondProject, setsecondProject] = useState([FerrariF12, Messi])
 
@@ -119,6 +127,9 @@ export default function PROJECTS() {
                         } className = "card"/>
                         <CARD forwardedRef = {card} picture = {secondProject} pictureLegnth = {secondProject.length} description = {
                             "Last year, FIRST robotics was a little different. We had three different parts to the competition and one of the parts was the Innovation Challenge were we had to come up with an innovation that can help with the physical and/or mental health of people during the pandemic. We came up with an innovative desk that gets you moving through foot pedals while you work. We did extensive research on physical and mental health problems associated with prolonged idleness, and found that movement can do wonders for both your physical and mental health. Since the pandemic had everyone sitting at home or decrease movement in some way, our desk helps you get small movement throughout while you work that can have drastic effects on a person's health. The desk extends up and the seat fold to the side to transform into a standing desk, further decreasing the time people spend sitting. After research and product, along with other members of the robotics team I put together a pitch presentation disaplying the problem, solution, product, business model, and potential impact.\n  ***Please scroll to view all parts of the slide presentation.***"
+                        } className = "card"/>
+                        <CARD forwardedRef = {card} picture = {seventhProject} pictureLength = {seventhProject.length} description = {
+                            "The furniture is my room is positioned in a way that makes it inconveninent to open/close my window blinds. I was thinkning to make a system using an arduino nano that can pull the strings for me to open/close my window blinds without me inconveniently getting access to them. So I 3d printed a casing for a servo and a shaft for the servo that act as a pulley-like structure to wind/unwind strings to pull either of the strings to open/close the window blinds. I connected the sevo to an arduino nano and wrote a small program to control the servo using serial communication. However, I cannot just use my phone to control the servo so I plan to hook up a backend firebase database to a simple react app and host it using netlify to send data to the arduino from a react app on my phone."
                         } className = "card"/>
                         <CARD forwardedRef = {card} picture = {thirdProject} pictureLegnth = {thirdProject.length} description = {
                             'This is one of the posters I put together working with some other members of the SPARK program. This poster was resaerch done the chemical composition of ceramic samples found in different quarry sites across Long Island. Chemical compoisition studies such as this helps Archaeologists study really old native groups of people indigenous to Long Island. In this project each of the members did literature review/background research before putting the samples through a beamline and then analying data with a program called IDL to find their chemical composition and elemental variations. After data analysis, we put together graphs to showcase our findings. '

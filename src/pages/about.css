@@ -1,0 +1,37 @@
+.container1{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: indianred; */
+    
+    flex-wrap: wrap;
+
+}
+
+/* .container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: lightblue;
+} */
+
+.title{
+    height: fit-content;
+    width: fit-content;
+    font-size: 200px;
+    font-size: 900%;
+    /* background-color: hotpink; */
+}
+
+.description{
+    margin: 50px;
+    font-size: 20px;
+    /* background-color: lightgreen; */
+}
+
+.indent{
+    margin-left: 40px;
+}

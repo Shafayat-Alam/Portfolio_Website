@@ -78,7 +78,7 @@ export default function NAVBAR() {
                     <Link to = "/" target = "_parent" className = "navbar-link navbar-link-small">Home</Link>
                 </div>
                 <div className="right-container">
-                    <div className = "logo">Logo</div>
+                    {/* <div className = "logo">Logo</div> */}
                     <Link to = "/pages/PROJECTS.js" target = "_parent" id = "projects" className = "navbar-link navbar-link-small">Projects</Link>
                     <Link to = "/pages/ABOUT.js" target = "_parent" id = "about" className = "navbar-link navbar-link-small">About</Link>
                     <Link to = "/pages/CONTACT.js" target = "_parent" id = "contact" className = "navbar-link navbar-link-small">Contact</Link>
